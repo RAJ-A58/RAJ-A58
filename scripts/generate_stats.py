@@ -11,6 +11,7 @@ Queries GitHub GraphQL API and renders self-hosted, theme-adaptive SVGs:
 
 import os
 import sys
+import re
 import json
 import math
 from datetime import datetime, timezone, timedelta
@@ -188,7 +189,11 @@ def get_fallback_data(login: str, from_dt: datetime, to_dt: datetime):
 def calculate_metrics(user_data):
     cal = user_data["contributionsCollection"]["contributionCalendar"]
     weeks = cal["weeks"]
-    total_contribs = cal["totalContributions"] + user_data["contributionsCollection"].get("restrictedContributionsCount", 0)
+    total_contribs = cal["totalContributions"]
+    total_commits = user_data["contributionsCollection"].get("totalCommitContributions", 0)
+    total_issues = user_data["contributionsCollection"].get("totalIssueContributions", 0)
+    total_prs = user_data["contributionsCollection"].get("totalPullRequestContributions", 0)
+    total_reviews = user_data["contributionsCollection"].get("totalPullRequestReviewContributions", 0)
 
     # Flatten all days
     all_days = []
@@ -262,6 +267,10 @@ def calculate_metrics(user_data):
 
     return {
         "total_contributions": total_contribs,
+        "total_commits": total_commits,
+        "total_issues": total_issues,
+        "total_prs": total_prs,
+        "total_reviews": total_reviews,
         "weeks": weeks,
         "weekly_sums": weekly_sums,
         "all_days": all_days,
@@ -276,6 +285,51 @@ def calculate_metrics(user_data):
         "lang_colors": lang_colors,
         "total_bytes": total_bytes
     }
+
+def update_ascii_svg(svg_path, metrics):
+    if not os.path.exists(svg_path):
+        return
+    with open(svg_path, 'r', encoding='utf-8') as f:
+        content = f.read()
+
+    contribs = metrics["total_contributions"]
+    commits = metrics.get("total_commits", 0)
+    prs = metrics.get("total_prs", 0)
+    issues = metrics.get("total_issues", 0)
+    reviews = metrics.get("total_reviews", 0)
+
+    # Replace Contributions
+    content = re.sub(
+        r'(\. Contributions:\s*</tspan><tspan[^>]*>\.+?</tspan><tspan[^>]*>\s*)\d+',
+        rf'\g<1>{contribs}',
+        content
+    )
+    # Replace Commits (if commits > 0)
+    if commits > 0:
+        content = re.sub(
+            r'(\. Commits:\s*</tspan><tspan[^>]*>\.+?</tspan><tspan[^>]*>\s*)\d+',
+            rf'\g<1>{commits}',
+            content
+        )
+    if prs > 0:
+        content = re.sub(
+            r'(\. PRs:\s*</tspan><tspan[^>]*>\.+?</tspan><tspan[^>]*>\s*)\d+',
+            rf'\g<1>{prs}',
+            content
+        )
+    content = re.sub(
+        r'(\. Issues:\s*</tspan><tspan[^>]*>\.+?</tspan><tspan[^>]*>\s*)\d+',
+        rf'\g<1>{issues}',
+        content
+    )
+    content = re.sub(
+        r'(\. Reviews:\s*</tspan><tspan[^>]*>\.+?</tspan><tspan[^>]*>\s*)\d+',
+        rf'\g<1>{reviews}',
+        content
+    )
+
+    with open(svg_path, 'w', encoding='utf-8') as f:
+        f.write(content)
 
 def format_date_range(start_str, end_str):
     if not start_str or not end_str:
@@ -554,6 +608,11 @@ def main():
         with open(os.path.join(root, filename), "w", encoding="utf-8") as f:
             f.write(hd_svg)
         print(f"Generated {filename}")
+
+    # Update ASCII cards with live stats
+    update_ascii_svg(os.path.join(root, "dark_mode.svg"), metrics)
+    update_ascii_svg(os.path.join(root, "light_mode.svg"), metrics)
+    print("Updated dark_mode.svg and light_mode.svg with live stats")
 
 if __name__ == "__main__":
     main()

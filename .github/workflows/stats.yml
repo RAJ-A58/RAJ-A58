@@ -28,7 +28,7 @@ jobs:
 
       - name: Commit & push if changed
         run: |
-          FILES="stats.svg streak.svg langs.svg year.svg hd-*.svg"
+          FILES="stats.svg streak.svg langs.svg year.svg hd-*.svg dark_mode.svg light_mode.svg"
           git status --porcelain -- $FILES
           [ -z "$(git status --porcelain -- $FILES)" ] && exit 0
           git config user.name "github-actions[bot]"
