@@ -219,7 +219,7 @@ def compute_uptime(created_at_str: str) -> str:
     """Compute account age string from ISO 8601 createdAt."""
     try:
         created = datetime.strptime(created_at_str, "%Y-%m-%dT%H:%M:%SZ")
-        now = datetime.utcnow()
+        now = datetime.now(timezone.utc).replace(tzinfo=None)
         delta = now - created
         years = delta.days // 365
         days = delta.days % 365
@@ -651,9 +651,10 @@ def render_year_svg(metrics, from_dt, to_dt):
 
 def render_heading_svg(label: str, width=900, height=26):
     text_w = len(label) * 8.5 + 20
+    safe_label = label.upper().replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img">
   {get_theme_css()}
-  <text x="0" y="17" class="title">{label.upper()}</text>
+  <text x="0" y="17" class="title">{safe_label}</text>
   <line x1="{text_w:.1f}" y1="14" x2="{width}" y2="14" class="rule"/>
 </svg>"""
 
