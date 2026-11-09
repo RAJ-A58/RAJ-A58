@@ -1,5 +1,11 @@
 <div align="center">
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg" />
+  <img alt="RAJ-A58's GitHub profile" src="dark_mode.svg" />
+</picture>
+
 # Hi there, I'm Raj Patil
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=61AFEF&center=true&vCenter=true&width=620&lines=CS+Undergrad+%40+VNIT+Nagpur;Low-Latency+Systems+%26+Quant+Infrastructure;Distributed+Systems+%26+Concurrency;C%2B%2B20+%7C+Lock-Free+Data+Structures)](https://git.io/typing-svg)
