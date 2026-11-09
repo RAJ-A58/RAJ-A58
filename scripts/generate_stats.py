@@ -304,13 +304,12 @@ def update_ascii_svg(svg_path, metrics):
         rf'\g<1>{contribs}',
         content
     )
-    # Replace Commits (if commits > 0)
-    if commits > 0:
-        content = re.sub(
-            r'(\. Commits:\s*</tspan><tspan[^>]*>\.+?</tspan><tspan[^>]*>\s*)\d+',
-            rf'\g<1>{commits}',
-            content
-        )
+    # Replace Commits with all contributions count
+    content = re.sub(
+        r'(\. Commits:\s*</tspan><tspan[^>]*>\.+?</tspan><tspan[^>]*>\s*)\d+',
+        rf'\g<1>{contribs}',
+        content
+    )
     if prs > 0:
         content = re.sub(
             r'(\. PRs:\s*</tspan><tspan[^>]*>\.+?</tspan><tspan[^>]*>\s*)\d+',
