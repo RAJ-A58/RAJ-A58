@@ -3,7 +3,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg" />
   <source media="(prefers-color-scheme: light)" srcset="light_mode.svg" />
-  <img alt="RAJ-A58's GitHub profile" src="dark_mode.svg" />
+  <img alt="RAJ-A58's GitHub profile" src="dark_mode.svg" width="100%" />
 </picture>
 
 # Hi there, I'm Raj Patil
@@ -20,18 +20,20 @@
 
 </div>
 
----
+> CSE Undergrad at **VNIT Nagpur** building high-throughput low-latency systems, lock-free concurrent structures in modern C++20, and resilient distributed architectures. Zero third-party analytics — telemetry rendered natively by this repo.
 
-### About Me
+<br/>
+
+<img src="hd-about.svg" width="100%" alt="About Me" />
 
 - **CSE Undergrad** at **VNIT Nagpur**
 - **Core Interests:** Low-latency systems, lock-free concurrency, high-performance C++20, and distributed architectures.
 - **Quant & Systems Research:** Order matching, SPSC lock-free queues, memory models, cache-line alignment, and cross-currency arbitrage engines.
 - Passionate about deep algorithmic problem solving and writing clean, cache-friendly, production-grade code.
 
----
+<br/>
 
-### Tech Stack & Skills
+<img src="hd-stack.svg" width="100%" alt="Tech Stack & Systems" />
 
 <div align="left">
 
@@ -58,30 +60,32 @@
 
 </div>
 
----
+<br/>
 
-### Highlighted Projects
+<img src="hd-projects.svg" width="100%" alt="Highlighted Projects" />
 
 | Project | Focus Area | Description |
 | :--- | :--- | :--- |
-| **[FX-Arbitrage-Detector](https://github.com/RAJ-A58/FX-Arbitrage-Detector)** | High-Performance Systems | C++17 engine using negative-log Bellman-Ford to detect FX currency arbitrage loops accounting for real-world bid/ask spreads & fees. |
-| **[cpp-concurrency-journey](https://github.com/RAJ-A58/cpp-concurrency-journey)** | Quant / Low-Latency | Low-latency C++20 concurrency exploration: lock-free SPSC ring buffers, cache-line alignment, atomic memory models for HFT applications. |
-| **[Blinkit-concurrency-poc](https://github.com/RAJ-A58/Blinkit-concurrency-poc)** | Distributed Systems | Distributed race-condition simulation & mitigation using Redis distributed locks, RabbitMQ queues, and MySQL optimistic concurrency. |
-| **[route_optmisation](https://github.com/RAJ-A58/route_optmisation)** | Operations Research | Research on Capacitated Multi-Depot Vehicle Routing with Time Windows (CVRPTW) optimized for heterogeneous logistics fleets. |
-| **[BAH26_Exoplanet_Detection](https://github.com/RAJ-A58/BAH26_Exoplanet_Detection)** | ML & Astrophysics | Dual-View 1D ResNet and BLS pipeline detecting exoplanet candidates from Kepler transit light curves. |
-| **[EAR_WatchAI](https://github.com/RAJ-A58/EAR_WatchAI)** | Computer Vision | Real-time driver alertness & fatigue monitoring system built on OpenCV and MediaPipe Face Mesh using Eye Aspect Ratio (EAR). |
-
----
-
-### GitHub Activity & Stats
-
-<div align="center">
-
-<img height="165em" src="https://github-readme-stats.vercel.app/api?username=RAJ-A58&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RAJ-A58&layout=compact&theme=tokyonight&hide_border=true" />
+| **[FX-Arbitrage-Detector](https://github.com/RAJ-A58/FX-Arbitrage-Detector)** | <samp>High-Performance Systems</samp> | C++17 engine using negative-log Bellman-Ford to detect FX currency arbitrage loops accounting for real-world bid/ask spreads & fees. |
+| **[cpp-concurrency-journey](https://github.com/RAJ-A58/cpp-concurrency-journey)** | <samp>Quant / Low-Latency</samp> | Low-latency C++20 concurrency exploration: lock-free SPSC ring buffers, cache-line alignment, atomic memory models for HFT applications. |
+| **[Blinkit-concurrency-poc](https://github.com/RAJ-A58/Blinkit-concurrency-poc)** | <samp>Distributed Systems</samp> | Distributed race-condition simulation & mitigation using Redis distributed locks, RabbitMQ queues, and MySQL optimistic concurrency. |
+| **[route_optmisation](https://github.com/RAJ-A58/route_optmisation)** | <samp>Operations Research</samp> | Research on Capacitated Multi-Depot Vehicle Routing with Time Windows (CVRPTW) optimized for heterogeneous logistics fleets. |
+| **[BAH26_Exoplanet_Detection](https://github.com/RAJ-A58/BAH26_Exoplanet_Detection)** | <samp>ML & Astrophysics</samp> | Dual-View 1D ResNet and BLS pipeline detecting exoplanet candidates from Kepler transit light curves. |
+| **[EAR_WatchAI](https://github.com/RAJ-A58/EAR_WatchAI)** | <samp>Computer Vision</samp> | Real-time driver alertness & fatigue monitoring system built on OpenCV and MediaPipe Face Mesh using Eye Aspect Ratio (EAR). |
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=RAJ-A58&theme=tokyonight&hide_border=true" />
+<img src="hd-telemetry.svg" width="100%" alt="Live Telemetry & Activity" />
 
-</div>
+<p align="center">
+  <img src="stats.svg" width="49%" alt="Yearly Contributions" />
+  <img src="streak.svg" width="49%" alt="Contribution Streaks" />
+</p>
+
+<p align="center">
+  <img src="langs.svg" width="100%" alt="Repository Composition" />
+</p>
+
+<p align="center">
+  <img src="year.svg" width="100%" alt="365-Day Chronology" />
+</p>

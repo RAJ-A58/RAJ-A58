@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="26" viewBox="0 0 900 26" role="img">
+  
+    <style>
+      .bg { fill: #0d1117; stroke: #30363d; }
+      .title { fill: #58a6ff; font-family: 'JetBrains Mono', 'Consolas', 'Menlo', monospace; font-size: 11px; font-weight: 700; letter-spacing: 1.5px; }
+      .hero { fill: #f0f6fc; font-family: 'JetBrains Mono', 'Consolas', 'Menlo', monospace; font-size: 26px; font-weight: 800; }
+      .label { fill: #8b949e; font-family: 'JetBrains Mono', 'Consolas', 'Menlo', monospace; font-size: 10px; }
+      .subtext { fill: #7d8590; font-family: 'JetBrains Mono', 'Consolas', 'Menlo', monospace; font-size: 11px; }
+      .bar-active { fill: #388bfd; }
+      .bar-max { fill: #39d353; }
+      .bar-zero { fill: #21262d; }
+      .ascii-text { font-family: 'JetBrains Mono', 'Consolas', 'Menlo', monospace; font-size: 11px; fill: #8b949e; }
+      .ascii-hi { fill: #39d353; font-weight: bold; }
+      .ascii-med { fill: #58a6ff; }
+      .ascii-low { fill: #484f58; }
+      .rule { stroke: #30363d; stroke-width: 1; }
+
+      @media (prefers-color-scheme: light) {
+        .bg { fill: #ffffff; stroke: #d0d7de; }
+        .title { fill: #0969da; }
+        .hero { fill: #1f2328; }
+        .label { fill: #656d76; }
+        .subtext { fill: #656d76; }
+        .bar-active { fill: #0969da; }
+        .bar-max { fill: #1a7f37; }
+        .bar-zero { fill: #eaeef2; }
+        .ascii-text { fill: #656d76; }
+        .ascii-hi { fill: #1a7f37; }
+        .ascii-med { fill: #0969da; }
+        .ascii-low { fill: #d0d7de; }
+        .rule { stroke: #d0d7de; }
+      }
+    </style>
+    
+  <text x="0" y="17" class="title">// 01. ABOUT ME</text>
+  <line x1="147.5" y1="14" x2="900" y2="14" class="rule"/>
+</svg>

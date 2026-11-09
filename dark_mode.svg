@@ -1,90 +1,965 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1254" height="737.6" viewBox="0 0 1254 737.6" role="img" aria-label="ASCII GitHub profile card for RAJ-A58">
+  <defs>
+    <clipPath id="type-row-0">
+      <rect x="26.0" y="26.6" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="0.0s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-1">
+      <rect x="26.0" y="36.2" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="0.055s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-2">
+      <rect x="26.0" y="45.8" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="0.11s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-3">
+      <rect x="26.0" y="55.4" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="0.165s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-4">
+      <rect x="26.0" y="65.0" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="0.22s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-5">
+      <rect x="26.0" y="74.6" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="0.275s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-6">
+      <rect x="26.0" y="84.2" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="0.33s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-7">
+      <rect x="26.0" y="93.8" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="0.385s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-8">
+      <rect x="26.0" y="103.4" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="0.44s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-9">
+      <rect x="26.0" y="113.0" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="0.495s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-10">
+      <rect x="26.0" y="122.6" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="0.55s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-11">
+      <rect x="26.0" y="132.2" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="0.605s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-12">
+      <rect x="26.0" y="141.8" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="0.66s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-13">
+      <rect x="26.0" y="151.4" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="0.715s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-14">
+      <rect x="26.0" y="161.0" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="0.77s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-15">
+      <rect x="26.0" y="170.6" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="0.825s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-16">
+      <rect x="26.0" y="180.2" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="0.88s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-17">
+      <rect x="26.0" y="189.8" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="0.935s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-18">
+      <rect x="26.0" y="199.4" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="0.99s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-19">
+      <rect x="26.0" y="209.0" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="1.045s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-20">
+      <rect x="26.0" y="218.6" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="1.1s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-21">
+      <rect x="26.0" y="228.2" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="1.155s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-22">
+      <rect x="26.0" y="237.8" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="1.21s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-23">
+      <rect x="26.0" y="247.4" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="1.265s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-24">
+      <rect x="26.0" y="257.0" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="1.32s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-25">
+      <rect x="26.0" y="266.6" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="1.375s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-26">
+      <rect x="26.0" y="276.2" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="1.43s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-27">
+      <rect x="26.0" y="285.8" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="1.485s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-28">
+      <rect x="26.0" y="295.4" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="1.54s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-29">
+      <rect x="26.0" y="305.0" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="1.595s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-30">
+      <rect x="26.0" y="314.6" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="1.65s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-31">
+      <rect x="26.0" y="324.2" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="1.705s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-32">
+      <rect x="26.0" y="333.8" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="1.76s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-33">
+      <rect x="26.0" y="343.4" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="1.815s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-34">
+      <rect x="26.0" y="353.0" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="1.87s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-35">
+      <rect x="26.0" y="362.6" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="1.925s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-36">
+      <rect x="26.0" y="372.2" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="1.98s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-37">
+      <rect x="26.0" y="381.8" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="2.035s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-38">
+      <rect x="26.0" y="391.4" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="2.09s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-39">
+      <rect x="26.0" y="401.0" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="2.145s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-40">
+      <rect x="26.0" y="410.6" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="2.2s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-41">
+      <rect x="26.0" y="420.2" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="2.255s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-42">
+      <rect x="26.0" y="429.8" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="2.31s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-43">
+      <rect x="26.0" y="439.4" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="2.365s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-44">
+      <rect x="26.0" y="449.0" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="2.42s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-45">
+      <rect x="26.0" y="458.6" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="2.475s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-46">
+      <rect x="26.0" y="468.2" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="2.53s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-47">
+      <rect x="26.0" y="477.8" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="2.585s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-48">
+      <rect x="26.0" y="487.4" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="2.64s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-49">
+      <rect x="26.0" y="497.0" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="2.695s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-50">
+      <rect x="26.0" y="506.6" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="2.75s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-51">
+      <rect x="26.0" y="516.2" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="2.805s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-52">
+      <rect x="26.0" y="525.8" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="2.86s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-53">
+      <rect x="26.0" y="535.4" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="2.915s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-54">
+      <rect x="26.0" y="545.0" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="2.97s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-55">
+      <rect x="26.0" y="554.6" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="3.025s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-56">
+      <rect x="26.0" y="564.2" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="3.08s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-57">
+      <rect x="26.0" y="573.8" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="3.135s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-58">
+      <rect x="26.0" y="583.4" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="3.19s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-59">
+      <rect x="26.0" y="593.0" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="3.245s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-60">
+      <rect x="26.0" y="602.6" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="3.3s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-61">
+      <rect x="26.0" y="612.2" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="3.355s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-62">
+      <rect x="26.0" y="621.8" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="3.41s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-63">
+      <rect x="26.0" y="631.4" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="3.465s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-64">
+      <rect x="26.0" y="641.0" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="3.52s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-65">
+      <rect x="26.0" y="650.6" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="3.575s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-66">
+      <rect x="26.0" y="660.2" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="3.63s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-67">
+      <rect x="26.0" y="669.8" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="3.685s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-68">
+      <rect x="26.0" y="679.4" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="3.74s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-69">
+      <rect x="26.0" y="689.0" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="3.795s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-70">
+      <rect x="26.0" y="698.6" width="0" height="11.0">
+        <animate attributeName="width" from="0" to="620" dur="0.12s" begin="3.85s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-71">
+      <rect x="667.6" y="177.8" width="0" height="20.0">
+        <animate attributeName="width" from="0" to="570" dur="0.18s" begin="0.4s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-72">
+      <rect x="667.6" y="197.8" width="0" height="20.0">
+        <animate attributeName="width" from="0" to="570" dur="0.18s" begin="0.52s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-73">
+      <rect x="667.6" y="217.8" width="0" height="20.0">
+        <animate attributeName="width" from="0" to="570" dur="0.18s" begin="0.64s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-74">
+      <rect x="667.6" y="257.8" width="0" height="20.0">
+        <animate attributeName="width" from="0" to="570" dur="0.18s" begin="0.76s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-75">
+      <rect x="667.6" y="277.8" width="0" height="20.0">
+        <animate attributeName="width" from="0" to="570" dur="0.18s" begin="0.88s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-76">
+      <rect x="667.6" y="297.8" width="0" height="20.0">
+        <animate attributeName="width" from="0" to="570" dur="0.18s" begin="1.0s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-77">
+      <rect x="667.6" y="337.8" width="0" height="20.0">
+        <animate attributeName="width" from="0" to="570" dur="0.18s" begin="1.12s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-78">
+      <rect x="667.6" y="357.8" width="0" height="20.0">
+        <animate attributeName="width" from="0" to="570" dur="0.18s" begin="1.24s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-79">
+      <rect x="667.6" y="377.8" width="0" height="20.0">
+        <animate attributeName="width" from="0" to="570" dur="0.18s" begin="1.36s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-80">
+      <rect x="667.6" y="397.8" width="0" height="20.0">
+        <animate attributeName="width" from="0" to="570" dur="0.18s" begin="1.48s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-81">
+      <rect x="667.6" y="417.8" width="0" height="20.0">
+        <animate attributeName="width" from="0" to="570" dur="0.18s" begin="1.6s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-82">
+      <rect x="667.6" y="437.8" width="0" height="20.0">
+        <animate attributeName="width" from="0" to="570" dur="0.18s" begin="1.72s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-83">
+      <rect x="667.6" y="477.8" width="0" height="20.0">
+        <animate attributeName="width" from="0" to="570" dur="0.18s" begin="1.84s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-84">
+      <rect x="667.6" y="497.8" width="0" height="20.0">
+        <animate attributeName="width" from="0" to="570" dur="0.18s" begin="1.96s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-85">
+      <rect x="667.6" y="517.8" width="0" height="20.0">
+        <animate attributeName="width" from="0" to="570" dur="0.18s" begin="2.08s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-row-86">
+      <rect x="667.6" y="537.8" width="0" height="20.0">
+        <animate attributeName="width" from="0" to="570" dur="0.18s" begin="2.2s" fill="freeze" />
+      </rect>
+    </clipPath>
+  </defs>
+  <g id="typing-cursors">
+    <rect x="26.0" y="26.6" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="0.0s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="0.0s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="0.12s" />
+    </rect>
+    <rect x="26.0" y="36.2" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="0.055s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="0.055s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="0.175s" />
+    </rect>
+    <rect x="26.0" y="45.8" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="0.11s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="0.11s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="0.23s" />
+    </rect>
+    <rect x="26.0" y="55.4" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="0.165s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="0.165s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="0.285s" />
+    </rect>
+    <rect x="26.0" y="65.0" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="0.22s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="0.22s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="0.34s" />
+    </rect>
+    <rect x="26.0" y="74.6" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="0.275s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="0.275s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="0.395s" />
+    </rect>
+    <rect x="26.0" y="84.2" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="0.33s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="0.33s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="0.45s" />
+    </rect>
+    <rect x="26.0" y="93.8" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="0.385s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="0.385s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="0.505s" />
+    </rect>
+    <rect x="26.0" y="103.4" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="0.44s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="0.44s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="0.56s" />
+    </rect>
+    <rect x="26.0" y="113.0" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="0.495s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="0.495s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="0.615s" />
+    </rect>
+    <rect x="26.0" y="122.6" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="0.55s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="0.55s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="0.67s" />
+    </rect>
+    <rect x="26.0" y="132.2" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="0.605s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="0.605s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="0.725s" />
+    </rect>
+    <rect x="26.0" y="141.8" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="0.66s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="0.66s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="0.78s" />
+    </rect>
+    <rect x="26.0" y="151.4" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="0.715s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="0.715s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="0.835s" />
+    </rect>
+    <rect x="26.0" y="161.0" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="0.77s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="0.77s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="0.89s" />
+    </rect>
+    <rect x="26.0" y="170.6" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="0.825s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="0.825s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="0.945s" />
+    </rect>
+    <rect x="26.0" y="180.2" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="0.88s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="0.88s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="1.0s" />
+    </rect>
+    <rect x="26.0" y="189.8" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="0.935s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="0.935s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="1.055s" />
+    </rect>
+    <rect x="26.0" y="199.4" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="0.99s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="0.99s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="1.11s" />
+    </rect>
+    <rect x="26.0" y="209.0" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="1.045s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="1.045s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="1.165s" />
+    </rect>
+    <rect x="26.0" y="218.6" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="1.1s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="1.1s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="1.22s" />
+    </rect>
+    <rect x="26.0" y="228.2" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="1.155s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="1.155s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="1.275s" />
+    </rect>
+    <rect x="26.0" y="237.8" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="1.21s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="1.21s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="1.33s" />
+    </rect>
+    <rect x="26.0" y="247.4" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="1.265s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="1.265s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="1.385s" />
+    </rect>
+    <rect x="26.0" y="257.0" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="1.32s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="1.32s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="1.44s" />
+    </rect>
+    <rect x="26.0" y="266.6" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="1.375s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="1.375s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="1.495s" />
+    </rect>
+    <rect x="26.0" y="276.2" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="1.43s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="1.43s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="1.55s" />
+    </rect>
+    <rect x="26.0" y="285.8" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="1.485s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="1.485s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="1.605s" />
+    </rect>
+    <rect x="26.0" y="295.4" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="1.54s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="1.54s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="1.66s" />
+    </rect>
+    <rect x="26.0" y="305.0" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="1.595s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="1.595s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="1.715s" />
+    </rect>
+    <rect x="26.0" y="314.6" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="1.65s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="1.65s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="1.77s" />
+    </rect>
+    <rect x="26.0" y="324.2" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="1.705s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="1.705s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="1.825s" />
+    </rect>
+    <rect x="26.0" y="333.8" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="1.76s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="1.76s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="1.88s" />
+    </rect>
+    <rect x="26.0" y="343.4" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="1.815s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="1.815s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="1.935s" />
+    </rect>
+    <rect x="26.0" y="353.0" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="1.87s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="1.87s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="1.99s" />
+    </rect>
+    <rect x="26.0" y="362.6" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="1.925s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="1.925s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="2.045s" />
+    </rect>
+    <rect x="26.0" y="372.2" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="1.98s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="1.98s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="2.1s" />
+    </rect>
+    <rect x="26.0" y="381.8" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="2.035s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="2.035s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="2.155s" />
+    </rect>
+    <rect x="26.0" y="391.4" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="2.09s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="2.09s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="2.21s" />
+    </rect>
+    <rect x="26.0" y="401.0" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="2.145s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="2.145s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="2.265s" />
+    </rect>
+    <rect x="26.0" y="410.6" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="2.2s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="2.2s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="2.32s" />
+    </rect>
+    <rect x="26.0" y="420.2" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="2.255s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="2.255s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="2.375s" />
+    </rect>
+    <rect x="26.0" y="429.8" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="2.31s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="2.31s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="2.43s" />
+    </rect>
+    <rect x="26.0" y="439.4" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="2.365s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="2.365s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="2.485s" />
+    </rect>
+    <rect x="26.0" y="449.0" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="2.42s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="2.42s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="2.54s" />
+    </rect>
+    <rect x="26.0" y="458.6" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="2.475s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="2.475s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="2.595s" />
+    </rect>
+    <rect x="26.0" y="468.2" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="2.53s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="2.53s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="2.65s" />
+    </rect>
+    <rect x="26.0" y="477.8" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="2.585s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="2.585s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="2.705s" />
+    </rect>
+    <rect x="26.0" y="487.4" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="2.64s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="2.64s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="2.76s" />
+    </rect>
+    <rect x="26.0" y="497.0" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="2.695s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="2.695s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="2.815s" />
+    </rect>
+    <rect x="26.0" y="506.6" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="2.75s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="2.75s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="2.87s" />
+    </rect>
+    <rect x="26.0" y="516.2" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="2.805s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="2.805s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="2.925s" />
+    </rect>
+    <rect x="26.0" y="525.8" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="2.86s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="2.86s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="2.98s" />
+    </rect>
+    <rect x="26.0" y="535.4" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="2.915s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="2.915s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="3.035s" />
+    </rect>
+    <rect x="26.0" y="545.0" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="2.97s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="2.97s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="3.09s" />
+    </rect>
+    <rect x="26.0" y="554.6" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="3.025s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="3.025s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="3.145s" />
+    </rect>
+    <rect x="26.0" y="564.2" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="3.08s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="3.08s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="3.2s" />
+    </rect>
+    <rect x="26.0" y="573.8" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="3.135s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="3.135s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="3.255s" />
+    </rect>
+    <rect x="26.0" y="583.4" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="3.19s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="3.19s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="3.31s" />
+    </rect>
+    <rect x="26.0" y="593.0" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="3.245s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="3.245s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="3.365s" />
+    </rect>
+    <rect x="26.0" y="602.6" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="3.3s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="3.3s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="3.42s" />
+    </rect>
+    <rect x="26.0" y="612.2" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="3.355s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="3.355s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="3.475s" />
+    </rect>
+    <rect x="26.0" y="621.8" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="3.41s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="3.41s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="3.53s" />
+    </rect>
+    <rect x="26.0" y="631.4" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="3.465s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="3.465s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="3.585s" />
+    </rect>
+    <rect x="26.0" y="641.0" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="3.52s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="3.52s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="3.64s" />
+    </rect>
+    <rect x="26.0" y="650.6" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="3.575s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="3.575s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="3.695s" />
+    </rect>
+    <rect x="26.0" y="660.2" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="3.63s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="3.63s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="3.75s" />
+    </rect>
+    <rect x="26.0" y="669.8" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="3.685s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="3.685s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="3.805s" />
+    </rect>
+    <rect x="26.0" y="679.4" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="3.74s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="3.74s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="3.86s" />
+    </rect>
+    <rect x="26.0" y="689.0" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="3.795s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="3.795s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="3.915s" />
+    </rect>
+    <rect x="26.0" y="698.6" width="6" height="11.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="3.85s" />
+      <animate attributeName="x" from="26.0" to="646.0" dur="0.12s" begin="3.85s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="3.97s" />
+    </rect>
+    <rect x="667.6" y="177.8" width="9" height="20.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="0.4s" />
+      <animate attributeName="x" from="667.6" to="1237.6" dur="0.18s" begin="0.4s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="0.58s" />
+    </rect>
+    <rect x="667.6" y="197.8" width="9" height="20.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="0.52s" />
+      <animate attributeName="x" from="667.6" to="1237.6" dur="0.18s" begin="0.52s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="0.7s" />
+    </rect>
+    <rect x="667.6" y="217.8" width="9" height="20.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="0.64s" />
+      <animate attributeName="x" from="667.6" to="1237.6" dur="0.18s" begin="0.64s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="0.82s" />
+    </rect>
+    <rect x="667.6" y="257.8" width="9" height="20.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="0.76s" />
+      <animate attributeName="x" from="667.6" to="1237.6" dur="0.18s" begin="0.76s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="0.94s" />
+    </rect>
+    <rect x="667.6" y="277.8" width="9" height="20.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="0.88s" />
+      <animate attributeName="x" from="667.6" to="1237.6" dur="0.18s" begin="0.88s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="1.06s" />
+    </rect>
+    <rect x="667.6" y="297.8" width="9" height="20.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="1.0s" />
+      <animate attributeName="x" from="667.6" to="1237.6" dur="0.18s" begin="1.0s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="1.18s" />
+    </rect>
+    <rect x="667.6" y="337.8" width="9" height="20.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="1.12s" />
+      <animate attributeName="x" from="667.6" to="1237.6" dur="0.18s" begin="1.12s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="1.3s" />
+    </rect>
+    <rect x="667.6" y="357.8" width="9" height="20.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="1.24s" />
+      <animate attributeName="x" from="667.6" to="1237.6" dur="0.18s" begin="1.24s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="1.42s" />
+    </rect>
+    <rect x="667.6" y="377.8" width="9" height="20.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="1.36s" />
+      <animate attributeName="x" from="667.6" to="1237.6" dur="0.18s" begin="1.36s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="1.54s" />
+    </rect>
+    <rect x="667.6" y="397.8" width="9" height="20.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="1.48s" />
+      <animate attributeName="x" from="667.6" to="1237.6" dur="0.18s" begin="1.48s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="1.66s" />
+    </rect>
+    <rect x="667.6" y="417.8" width="9" height="20.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="1.6s" />
+      <animate attributeName="x" from="667.6" to="1237.6" dur="0.18s" begin="1.6s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="1.78s" />
+    </rect>
+    <rect x="667.6" y="437.8" width="9" height="20.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="1.72s" />
+      <animate attributeName="x" from="667.6" to="1237.6" dur="0.18s" begin="1.72s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="1.9s" />
+    </rect>
+    <rect x="667.6" y="477.8" width="9" height="20.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="1.84s" />
+      <animate attributeName="x" from="667.6" to="1237.6" dur="0.18s" begin="1.84s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="2.02s" />
+    </rect>
+    <rect x="667.6" y="497.8" width="9" height="20.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="1.96s" />
+      <animate attributeName="x" from="667.6" to="1237.6" dur="0.18s" begin="1.96s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="2.14s" />
+    </rect>
+    <rect x="667.6" y="517.8" width="9" height="20.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="2.08s" />
+      <animate attributeName="x" from="667.6" to="1237.6" dur="0.18s" begin="2.08s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="2.26s" />
+    </rect>
+    <rect x="667.6" y="537.8" width="9" height="20.0" fill="#58a6ff" opacity="0">
+      <set attributeName="opacity" to="0.9" begin="2.2s" />
+      <animate attributeName="x" from="667.6" to="1237.6" dur="0.18s" begin="2.2s" fill="freeze" />
+      <set attributeName="opacity" to="0" begin="2.38s" />
+    </rect>
+  </g>
+
   <rect x="0.5" y="0.5" width="1253" height="736.6" rx="8" fill="#0d1117" stroke="#30363d"/>
-  <text x="28" y="34.6" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">                                                         ._jjjjj|gxug__.</text>
-  <text x="28" y="44.2" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">                                                     ._xxxxxjxxxxxxxjxjjjj:.</text>
-  <text x="28" y="53.8" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">                                                    \jxjjjj:ixv=jjj:j::::jj::.</text>
-  <text x="28" y="63.400000000000006" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">                                                  \jx;cxxxjjv!:::::::::  :::j::</text>
-  <text x="28" y="73" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">                                                _joxxxjxjjjjjj:::::jjjjj:.  ::j:</text>
-  <text x="28" y="82.6" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">                                               ioxjj|jgogooxxxjjjjjjjjjjjjj. :::</text>
-  <text x="28" y="92.2" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">                                              \xxjjjx@@@@@oxxxxxxxjjjjjjjjjj. ::</text>
-  <text x="28" y="101.8" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">                                             |xjjxujg@@@@@@@ogoxxxxxxxxjjjjjj:::</text>
-  <text x="28" y="111.39999999999999" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">                                             |xugo@g@@@@@@@@@$oxxxxxxxjjjjjjj::. .</text>
-  <text x="28" y="121" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">                                             |o@@o@@oUUAAIjjjjjjjjxxxjj:::::jj::.:</text>
-  <text x="28" y="130.6" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">                                             |@@o@@p|jioxxxxjjjjj;jj:jjjjjjjj:j:j:j</text>
-  <text x="28" y="140.2" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">                                             g@@oopuggqxxoovjj:jjc|xu:jj:jjjjjj:|:`</text>
-  <text x="28" y="149.8" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">                                             q@@|Zg@@@yxxxjjjjjjxc|oo|jjj:j::jj|zjg/</text>
-  <text x="28" y="159.4" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">                                            |g@@|:|@@oo2Qggxxxxxs\o@oxcjjjjjjjjzaoo}</text>
-  <text x="28" y="169" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">                                           __Z55cj@@@@@@guxgoxgooUewoxjjjjjjjjjjjj</text>
-  <text x="28" y="178.6" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">                                           |pxjxxj@@@@@@@@ooooxowjjjjjjjjjjjjjjjj|</text>
-  <text x="28" y="188.2" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">                                            `lxxj|@oo@o@o@oooxooxxxjjj::jjjjjjjjj</text>
-  <text x="28" y="197.79999999999998" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">                                              qpxgg@oo@o@ooooxxjxxjjjjjj:jjjjjjj|</text>
-  <text x="28" y="207.4" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">                                              //g@@@@oo@oooooxjjjuujj;jj::jjjj::</text>
-  <text x="28" y="217" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">                                                /-*[@oooooooxxxxxxjjjjjjjjjjjj:</text>
-  <text x="28" y="226.6" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">                                                    @ooxoooxxxxxxxuj;jjjjjjjj:`</text>
-  <text x="28" y="236.2" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">                                                    @@xxxxxxxxxxooxxxxjjjj:j::</text>
-  <text x="28" y="245.79999999999998" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">                                                _-_j|@ooxjjjjjjjjjjjjjj::::::</text>
-  <text x="28" y="255.39999999999998" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">                                              \\ou::|@@ooxjjj:::::::::::::::</text>
-  <text x="28" y="265" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">                                             |@ooxc:|@@ooxxjj:::::::::::::::':: .</text>
-  <text x="28" y="274.6" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">                                             @ooxxxj|/@@ooxxjjj::::::::::::      ':</text>
-  <text x="28" y="284.2" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">                                          \\o@xxxxxxjj1$oxxooxxjjjjj:::::::     : :::</text>
-  <text x="28" y="293.8" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">                         ::::            \go@gxxxxxjj::jxxxxxxxxjjjjjjj:j:::       ::::.</text>
-  <text x="28" y="303.4" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">                         : : :         \\@o@@@ooooy:::::jxxxxxxxjjjjjjjj::::       :::::</text>
-  <text x="28" y="313" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">                          :::|-xjjjj::\$ooa$oo$woj=::: :!jxxxxxxxjjjjjjjj:::::    :: : =j__.                 \g/.</text>
-  <text x="28" y="322.59999999999997" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">                           :\@o$|.jjuxUIjjjj::     : :::::jjxxxjjjjjjjjj::::::   ::    ::::::::._.          |moo| .</text>
-  <text x="28" y="332.2" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">                           g@pxxxwwxxxxxxjjjj:::          :!jjxxxxjjjjj:jjjj:::::       :::::::|@@o/.       |oxxj|  :: .</text>
-  <text x="28" y="341.8" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">                        __\mxxxxjjjjxxxxxxxxxxjj_:::: :      :!1xxxxxxjjjjj:::            : :::!$ooxx;.    \)oxjj|      ::::</text>
-  <text x="28" y="351.4" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">                     _uxxq@xjjjjjjjjjjjjxxxxxxjxxxj:::::: :    :!{xxxxxxx!:             : :: :::!{xxxjj:.\jr |xxjc          ::</text>
-  <text x="28" y="361" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">                  \oqooog@xxxxjjjjjjjjjjjjjxggggjjjj::::::::::: ::!1xxx=::               : :: : ::!xjxxujx'  |oxjj:         :</text>
-  <text x="28" y="370.59999999999997" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">                 \xgoooo@oxxxxjj:::jjjjj:qgo@@owcjjj::::::::::::::::!:::            : : : : : :   :/qxxxxc:  |xjjj|       .'</text>
-  <text x="28" y="380.2" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">                \xxooog@owxxxjj:::::::jugmxxxxxjj:::::::::::::::::::::: : : : : : : : : :::: : : : :/$xxxj;  Joxjj|      :`</text>
-  <text x="28" y="389.8" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">               \xjxxoq@pwxxx::jj:::|_g@@xxxjjjj::::::::::::::::::::::::: : : : : ::: : : : :: :\---_.j{yjjxxg@oxxxj:    :</text>
-  <text x="28" y="399.4" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">              Jxxoxxog@xxxx|:::j:\g@@$xxxxj:::::::::::::::::::::::::::::::::::::::::::::::: ::|@@@@og; qujxxxxoxxxj;  ::</text>
-  <text x="28" y="409" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">             _jjxxxxg@xxxxx::::\gmxxxxxx=:::::::::::::::::::::::::::::::::::::::::::: : : ::i@@oooooooo@oxjjxxxxjjjj;_jx;.</text>
-  <text x="28" y="418.59999999999997" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">            |xjjjjjg@bxxxxxu_\gooxxxjj=::::::::::::::::::::::::::::::::::::::::::::::::::: :[@@@gxooooooooxxxxjxxxxxxxxxxx.</text>
-  <text x="28" y="428.2" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">           |oxxxxj\@oxxxxooo@ooxxxxuu_::::::::::::::::::::::::::::::::::::::::::::::::: : : :/oxooooooooooxxxxxxxxxxxxxxxx</text>
-  <text x="28" y="437.8" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">           |xxxxxg@wxxxxoo@ooxxxxooooxc::::::::::::::::::::::::::::::::::::::::::::::::: :   :gpxxooooooxxxxxxxxxxxxjjxxx|</text>
-  <text x="28" y="447.4" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">          |xxxxx@@pxxxoooooxxxxxgg@@mu::::::::::::::::::::::::::::::::::::::::::::::::::  : :|+::!xxxxxxxxxxxxxxxjxxjjjxx|</text>
-  <text x="28" y="457" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">         |xxxxx@@@xxxooooxxxxxjjxxoxjj:::::::::::::::::::::|o@@@@@@@@@@@//::::::gg---_:::  .j`:    /xxxxxxxxxxxxxxxxxjjjj `</text>
-  <text x="28" y="466.59999999999997" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">         jjxps|@@xxxxooxxxxxxxxxxxxxj!: :_--gg@::::::::::::|@@@@@@@@@@@@@@//::::|@@@@@|: :|):       /{xxxxxxxxxxxxxxxxjj: `</text>
-  <text x="28" y="476.2" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">        |jj|||@@pxxoowxxxxxooxxxxxxj:. ::q@@@@@::::::::::::|o@@@@@UUU$o@@@@@::::|@@@@@|: :j:          /xxxxxxxxxxxxxjjj::::</text>
-  <text x="28" y="485.79999999999995" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">        jj\oox@@xoooxxxxxxxxxxxxxjjjj: ::|@@@@@|:::::::::::|@@@@@|::::|@@@@@|:::|@@@@@@|: !xu-,        /vxxxxxxxxxjjj:: :::</text>
-  <text x="28" y="495.4" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">       |j\ooxxjjxooxxxxxxxxxxxxxxxjj! : :|@@@@@|::::: ::::::o@@@@|::::|o@@@@|:::|@@@o@oo| :ooo|          ::!!!!!'':     :::</text>
-  <text x="28" y="505" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">       j\oooxjj::|xxxxxxxxxxxxxxxx)`   ::|o@@@@|:::: : :::::o@@@@|::::|@@@@@|:::|@@@@o@@|: ooox                          :::.</text>
-  <text x="28" y="514.5999999999999" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">    \\goooxxj::::::!!jjxxxxxxxxj)'    : ::@@o@@|:::: : :::::o@@@@|::: :o@@@@|:: |o@@@@@@o| oooo:           : :            : '.</text>
-  <text x="28" y="524.2" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">   \pg@ooxxj:::::: : :::!=jxjjj-      ::::qo@o@|::: : : ::::o@@@@|:::::o@@@@|:: :@o@opo@o|||ooo|        ::                   :</text>
-  <text x="28" y="533.8" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">  \@yoooxxjj::::::::: : : ::::        ::::|oo@o|::: : ::::::o@@@@g:::::o@@@@|::::o@@@p[@oo;|ooo|       ::::                 :::</text>
-  <text x="28" y="543.4" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8"> |@op1ooxxj:::::: : : :               :: :|oo@@p::: :  :::::o@@@@@:::::q@@@@|:: :oo@@o||@o||ooo|      :: ::::::       :::: :::</text>
-  <text x="28" y="553" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8"> oooxgxxxj:::::::: : : : :           :::  :oo@@o:: :  : : ::|o@@@@::: :|@@@@@::::|o@@@:|oooqooo|       ::::   :::::::::  :  ::</text>
-  <text x="28" y="562.6" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8"> xxxooxxjj::::: : : :               : : :  |@@@@::  : : :: :|@@@@@:::: |o@@@@:: :|o@o@::qooo@oo|      :   :                ::</text>
-  <text x="28" y="572.1999999999999" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8"> |xjjjjj:::::::: : : : :            ::     |o@@p:::  : : :: |o@@@@|: ::|@@@@@|:: |o@@@: |o@oo@o|      :::                 ::</text>
-  <text x="28" y="581.8" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8"> |g@/;:::::::: :         :         : :     :@@@|:: :  : : ::|@o@@@|:: :|@@@@@|:::|o@o@: :oo@o@oo       :::::::::::::: : : !</text>
-  <text x="28" y="591.4" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">|oq@@//::: : ::::: : :::          : :      :o@@|::  : : :: :|@@@@@/____g@@@@@|: :|o@o@: :|o@o@oo:      ::::::::::::: :    .</text>
-  <text x="28" y="601" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">|=g@@@g;:: :     : : :             :       :g@@p__---ggg: : |@@@@@@@@@@o@@@@@(:: |o@o@:  |o@@o@o|       :::: :            `</text>
-  <text x="28" y="610.6" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">ji@ooo\::: : : :    :                     ::@@@@@o@@o@o@:: :|o@@@@@@@o@@@@@\:: : |o@o@: : |o@@oo|       :                :</text>
-  <text x="28" y="620.1999999999999" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">jj|@ox::: : : : : :                       :|@@@@o@o@o@@@:: :|@ooo@$U$UUUUe\:::: :!XXUU:  :|o@@@o|                      ::</text>
-  <text x="28" y="629.8" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">jj[@|::: : : :   :                        :|QQ$UUUV---++: : :::::::::::::::: : : : : : :  ::::!!:           :         ::</text>
-  <text x="28" y="639.4" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">cj:q|c::::: : :                          ::::::: : : : : : : : ::::: : : : :: : : : : : :   : : :                : :::`</text>
-  <text x="28" y="649" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">xj:/s!j:::: :                             ::::        : : : : : ::::: : :::::: :::.__-----gggu: :     :.       :.:'</text>
-  <text x="28" y="658.6" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">|c::!c!;:                                 :::uguuuuugugu--uguggggggggggggggoooooooooo@o@oooo@o: :    |  ' :::'''</text>
-  <text x="28" y="668.1999999999999" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">|ij::!j[|:                 ' :           : ::oooooooo@o@o@o@o@o@@@@@o@o@@@@@@@@o@o@ooo@o@@@@@@: ::   '</text>
-  <text x="28" y="677.8" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8"> 'jj:::j!::                 |:           : ::o@o@o@o@o@Y/@o@@@@@@@@@@@@@@@o@o@o@o@o@oooooo@o@o:: :   ::</text>
-  <text x="28" y="687.4" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">  ':::::::::: :        :    |            :  :oooooo@o\+c:/o@o@@@@@@o@o@o@@@o@o@o@ooo@o@o@o@o@@|: :    :</text>
-  <text x="28" y="697" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">    '::::::: : : :  ::     |x               :ooo@oog_x_jc_ao@@@@@@@@@@@@o@o@o@o@o@o@ooooo@o@o@|: ::   |</text>
-  <text x="28" y="706.6" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">      `::::::::::..'`      xj: :         :  :o@oo@pcpcxxuxxxq@@@o@@o@o@o@o@@o@o@o@oo@o@o@o@@@@|: ::   :`</text>
-  <text x="669.6" y="193.8" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#3d444d">─</tspan><tspan fill="#58a6ff"> RAJ-A58@github </tspan><tspan fill="#3d444d">─────────────────────────────────────────</tspan></text>
-  <text x="669.6" y="213.8" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#ffa657">. Uptime: </tspan><tspan fill="#484f58">..............................</tspan><tspan fill="#c9d1d9"> 2 years, 11 days</tspan></text>
-  <text x="669.6" y="233.8" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#ffa657">. Languages: </tspan><tspan fill="#484f58">.........</tspan><tspan fill="#c9d1d9"> Python 65%, JavaScript 11%, C++ 7%</tspan></text>
-  <text x="669.6" y="273.8" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#3d444d">─</tspan><tspan fill="#58a6ff"> Contact </tspan><tspan fill="#3d444d">────────────────────────────────────────────────</tspan></text>
-  <text x="669.6" y="293.8" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#ffa657">. Email: </tspan><tspan fill="#484f58">.......................</tspan><tspan fill="#c9d1d9"> rajpatil280906@gmail.com</tspan></text>
-  <text x="669.6" y="313.8" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#ffa657">. GitHub: </tspan><tspan fill="#484f58">............................</tspan><tspan fill="#c9d1d9"> github.com/RAJ-A58</tspan></text>
-  <text x="669.6" y="353.8" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#3d444d">─</tspan><tspan fill="#58a6ff"> GitHub Stats </tspan><tspan fill="#3d444d">───────────────────────────────────────────</tspan></text>
-  <text x="669.6" y="373.8" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#ffa657">. Repos: </tspan><tspan fill="#484f58">..............</tspan><tspan fill="#79c0ff"> 17</tspan><tspan fill="#3d444d"> | </tspan><tspan fill="#ffa657">. Stars: </tspan><tspan fill="#484f58">...............</tspan><tspan fill="#79c0ff"> 0</tspan></text>
-  <text x="669.6" y="393.8" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#ffa657">. Forks: </tspan><tspan fill="#484f58">...............</tspan><tspan fill="#79c0ff"> 2</tspan><tspan fill="#3d444d"> | </tspan><tspan fill="#ffa657">. Followers: </tspan><tspan fill="#484f58">...........</tspan><tspan fill="#79c0ff"> 3</tspan></text>
-  <text x="669.6" y="413.8" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#ffa657">. Commits: </tspan><tspan fill="#484f58">...........</tspan><tspan fill="#79c0ff"> 239</tspan><tspan fill="#3d444d"> | </tspan><tspan fill="#ffa657">. Contributed: </tspan><tspan fill="#484f58">.........</tspan><tspan fill="#79c0ff"> 4</tspan></text>
-  <text x="669.6" y="433.8" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#ffa657">. PRs: </tspan><tspan fill="#484f58">.................</tspan><tspan fill="#79c0ff"> 6</tspan><tspan fill="#3d444d"> | </tspan><tspan fill="#ffa657">. Issues: </tspan><tspan fill="#484f58">..............</tspan><tspan fill="#79c0ff"> 0</tspan></text>
-  <text x="669.6" y="453.8" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#ffa657">. Top repo: </tspan><tspan fill="#484f58">................................</tspan><tspan fill="#c9d1d9"> AETHER (0 ★)</tspan></text>
-  <text x="669.6" y="493.8" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#3d444d">─</tspan><tspan fill="#58a6ff"> Last 12 Months </tspan><tspan fill="#3d444d">─────────────────────────────────────────</tspan></text>
-  <text x="669.6" y="513.8" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#ffa657">. Contributions: </tspan><tspan fill="#484f58">.....</tspan><tspan fill="#79c0ff"> 295</tspan><tspan fill="#3d444d"> | </tspan><tspan fill="#ffa657">. Reviews: </tspan><tspan fill="#484f58">.............</tspan><tspan fill="#79c0ff"> 0</tspan></text>
-  <text x="669.6" y="533.8" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#ffa657">. Private: </tspan><tspan fill="#484f58">...........................................</tspan><tspan fill="#79c0ff"> 35</tspan></text>
-  <text x="669.6" y="553.8" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#39d353">     ▄▄ ▄▄▄▃▂    ▃▅  ▂  ▅▃  ▃ ▂▂ ▆▆▇▅▅▃ ▅▆▆▆▂▇▇▅▅▇▆▇█▅</tspan></text>
+  <text x="28" y="34.6" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-0)">                                                         ._jjjjj|gxug__.</text>
+  <text x="28" y="44.2" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-1)">                                                     ._xxxxxjxxxxxxxjxjjjj:.</text>
+  <text x="28" y="53.8" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-2)">                                                    \jxjjjj:ixv=jjj:j::::jj::.</text>
+  <text x="28" y="63.400000000000006" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-3)">                                                  \jx;cxxxjjv!:::::::::  :::j::</text>
+  <text x="28" y="73" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-4)">                                                _joxxxjxjjjjjj:::::jjjjj:.  ::j:</text>
+  <text x="28" y="82.6" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-5)">                                               ioxjj|jgogooxxxjjjjjjjjjjjjj. :::</text>
+  <text x="28" y="92.2" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-6)">                                              \xxjjjx@@@@@oxxxxxxxjjjjjjjjjj. ::</text>
+  <text x="28" y="101.8" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-7)">                                             |xjjxujg@@@@@@@ogoxxxxxxxxjjjjjj:::</text>
+  <text x="28" y="111.39999999999999" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-8)">                                             |xugo@g@@@@@@@@@$oxxxxxxxjjjjjjj::. .</text>
+  <text x="28" y="121" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-9)">                                             |o@@o@@oUUAAIjjjjjjjjxxxjj:::::jj::.:</text>
+  <text x="28" y="130.6" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-10)">                                             |@@o@@p|jioxxxxjjjjj;jj:jjjjjjjj:j:j:j</text>
+  <text x="28" y="140.2" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-11)">                                             g@@oopuggqxxoovjj:jjc|xu:jj:jjjjjj:|:`</text>
+  <text x="28" y="149.8" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-12)">                                             q@@|Zg@@@yxxxjjjjjjxc|oo|jjj:j::jj|zjg/</text>
+  <text x="28" y="159.4" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-13)">                                            |g@@|:|@@oo2Qggxxxxxs\o@oxcjjjjjjjjzaoo}</text>
+  <text x="28" y="169" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-14)">                                           __Z55cj@@@@@@guxgoxgooUewoxjjjjjjjjjjjj</text>
+  <text x="28" y="178.6" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-15)">                                           |pxjxxj@@@@@@@@ooooxowjjjjjjjjjjjjjjjj|</text>
+  <text x="28" y="188.2" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-16)">                                            `lxxj|@oo@o@o@oooxooxxxjjj::jjjjjjjjj</text>
+  <text x="28" y="197.79999999999998" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-17)">                                              qpxgg@oo@o@ooooxxjxxjjjjjj:jjjjjjj|</text>
+  <text x="28" y="207.4" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-18)">                                              //g@@@@oo@oooooxjjjuujj;jj::jjjj::</text>
+  <text x="28" y="217" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-19)">                                                /-*[@oooooooxxxxxxjjjjjjjjjjjj:</text>
+  <text x="28" y="226.6" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-20)">                                                    @ooxoooxxxxxxxuj;jjjjjjjj:`</text>
+  <text x="28" y="236.2" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-21)">                                                    @@xxxxxxxxxxooxxxxjjjj:j::</text>
+  <text x="28" y="245.79999999999998" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-22)">                                                _-_j|@ooxjjjjjjjjjjjjjj::::::</text>
+  <text x="28" y="255.39999999999998" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-23)">                                              \\ou::|@@ooxjjj:::::::::::::::</text>
+  <text x="28" y="265" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-24)">                                             |@ooxc:|@@ooxxjj:::::::::::::::':: .</text>
+  <text x="28" y="274.6" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-25)">                                             @ooxxxj|/@@ooxxjjj::::::::::::      ':</text>
+  <text x="28" y="284.2" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-26)">                                          \\o@xxxxxxjj1$oxxooxxjjjjj:::::::     : :::</text>
+  <text x="28" y="293.8" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-27)">                         ::::            \go@gxxxxxjj::jxxxxxxxxjjjjjjj:j:::       ::::.</text>
+  <text x="28" y="303.4" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-28)">                         : : :         \\@o@@@ooooy:::::jxxxxxxxjjjjjjjj::::       :::::</text>
+  <text x="28" y="313" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-29)">                          :::|-xjjjj::\$ooa$oo$woj=::: :!jxxxxxxxjjjjjjjj:::::    :: : =j__.                 \g/.</text>
+  <text x="28" y="322.59999999999997" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-30)">                           :\@o$|.jjuxUIjjjj::     : :::::jjxxxjjjjjjjjj::::::   ::    ::::::::._.          |moo| .</text>
+  <text x="28" y="332.2" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-31)">                           g@pxxxwwxxxxxxjjjj:::          :!jjxxxxjjjjj:jjjj:::::       :::::::|@@o/.       |oxxj|  :: .</text>
+  <text x="28" y="341.8" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-32)">                        __\mxxxxjjjjxxxxxxxxxxjj_:::: :      :!1xxxxxxjjjjj:::            : :::!$ooxx;.    \)oxjj|      ::::</text>
+  <text x="28" y="351.4" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-33)">                     _uxxq@xjjjjjjjjjjjjxxxxxxjxxxj:::::: :    :!{xxxxxxx!:             : :: :::!{xxxjj:.\jr |xxjc          ::</text>
+  <text x="28" y="361" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-34)">                  \oqooog@xxxxjjjjjjjjjjjjjxggggjjjj::::::::::: ::!1xxx=::               : :: : ::!xjxxujx'  |oxjj:         :</text>
+  <text x="28" y="370.59999999999997" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-35)">                 \xgoooo@oxxxxjj:::jjjjj:qgo@@owcjjj::::::::::::::::!:::            : : : : : :   :/qxxxxc:  |xjjj|       .'</text>
+  <text x="28" y="380.2" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-36)">                \xxooog@owxxxjj:::::::jugmxxxxxjj:::::::::::::::::::::: : : : : : : : : :::: : : : :/$xxxj;  Joxjj|      :`</text>
+  <text x="28" y="389.8" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-37)">               \xjxxoq@pwxxx::jj:::|_g@@xxxjjjj::::::::::::::::::::::::: : : : : ::: : : : :: :\---_.j{yjjxxg@oxxxj:    :</text>
+  <text x="28" y="399.4" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-38)">              Jxxoxxog@xxxx|:::j:\g@@$xxxxj:::::::::::::::::::::::::::::::::::::::::::::::: ::|@@@@og; qujxxxxoxxxj;  ::</text>
+  <text x="28" y="409" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-39)">             _jjxxxxg@xxxxx::::\gmxxxxxx=:::::::::::::::::::::::::::::::::::::::::::: : : ::i@@oooooooo@oxjjxxxxjjjj;_jx;.</text>
+  <text x="28" y="418.59999999999997" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-40)">            |xjjjjjg@bxxxxxu_\gooxxxjj=::::::::::::::::::::::::::::::::::::::::::::::::::: :[@@@gxooooooooxxxxjxxxxxxxxxxx.</text>
+  <text x="28" y="428.2" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-41)">           |oxxxxj\@oxxxxooo@ooxxxxuu_::::::::::::::::::::::::::::::::::::::::::::::::: : : :/oxooooooooooxxxxxxxxxxxxxxxx</text>
+  <text x="28" y="437.8" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-42)">           |xxxxxg@wxxxxoo@ooxxxxooooxc::::::::::::::::::::::::::::::::::::::::::::::::: :   :gpxxooooooxxxxxxxxxxxxjjxxx|</text>
+  <text x="28" y="447.4" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-43)">          |xxxxx@@pxxxoooooxxxxxgg@@mu::::::::::::::::::::::::::::::::::::::::::::::::::  : :|+::!xxxxxxxxxxxxxxxjxxjjjxx|</text>
+  <text x="28" y="457" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-44)">         |xxxxx@@@xxxooooxxxxxjjxxoxjj:::::::::::::::::::::|o@@@@@@@@@@@//::::::gg---_:::  .j`:    /xxxxxxxxxxxxxxxxxjjjj `</text>
+  <text x="28" y="466.59999999999997" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-45)">         jjxps|@@xxxxooxxxxxxxxxxxxxj!: :_--gg@::::::::::::|@@@@@@@@@@@@@@//::::|@@@@@|: :|):       /{xxxxxxxxxxxxxxxxjj: `</text>
+  <text x="28" y="476.2" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-46)">        |jj|||@@pxxoowxxxxxooxxxxxxj:. ::q@@@@@::::::::::::|o@@@@@UUU$o@@@@@::::|@@@@@|: :j:          /xxxxxxxxxxxxxjjj::::</text>
+  <text x="28" y="485.79999999999995" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-47)">        jj\oox@@xoooxxxxxxxxxxxxxjjjj: ::|@@@@@|:::::::::::|@@@@@|::::|@@@@@|:::|@@@@@@|: !xu-,        /vxxxxxxxxxjjj:: :::</text>
+  <text x="28" y="495.4" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-48)">       |j\ooxxjjxooxxxxxxxxxxxxxxxjj! : :|@@@@@|::::: ::::::o@@@@|::::|o@@@@|:::|@@@o@oo| :ooo|          ::!!!!!'':     :::</text>
+  <text x="28" y="505" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-49)">       j\oooxjj::|xxxxxxxxxxxxxxxx)`   ::|o@@@@|:::: : :::::o@@@@|::::|@@@@@|:::|@@@@o@@|: ooox                          :::.</text>
+  <text x="28" y="514.5999999999999" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-50)">    \\goooxxj::::::!!jjxxxxxxxxj)'    : ::@@o@@|:::: : :::::o@@@@|::: :o@@@@|:: |o@@@@@@o| oooo:           : :            : '.</text>
+  <text x="28" y="524.2" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-51)">   \pg@ooxxj:::::: : :::!=jxjjj-      ::::qo@o@|::: : : ::::o@@@@|:::::o@@@@|:: :@o@opo@o|||ooo|        ::                   :</text>
+  <text x="28" y="533.8" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-52)">  \@yoooxxjj::::::::: : : ::::        ::::|oo@o|::: : ::::::o@@@@g:::::o@@@@|::::o@@@p[@oo;|ooo|       ::::                 :::</text>
+  <text x="28" y="543.4" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-53)"> |@op1ooxxj:::::: : : :               :: :|oo@@p::: :  :::::o@@@@@:::::q@@@@|:: :oo@@o||@o||ooo|      :: ::::::       :::: :::</text>
+  <text x="28" y="553" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-54)"> oooxgxxxj:::::::: : : : :           :::  :oo@@o:: :  : : ::|o@@@@::: :|@@@@@::::|o@@@:|oooqooo|       ::::   :::::::::  :  ::</text>
+  <text x="28" y="562.6" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-55)"> xxxooxxjj::::: : : :               : : :  |@@@@::  : : :: :|@@@@@:::: |o@@@@:: :|o@o@::qooo@oo|      :   :                ::</text>
+  <text x="28" y="572.1999999999999" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-56)"> |xjjjjj:::::::: : : : :            ::     |o@@p:::  : : :: |o@@@@|: ::|@@@@@|:: |o@@@: |o@oo@o|      :::                 ::</text>
+  <text x="28" y="581.8" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-57)"> |g@/;:::::::: :         :         : :     :@@@|:: :  : : ::|@o@@@|:: :|@@@@@|:::|o@o@: :oo@o@oo       :::::::::::::: : : !</text>
+  <text x="28" y="591.4" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-58)">|oq@@//::: : ::::: : :::          : :      :o@@|::  : : :: :|@@@@@/____g@@@@@|: :|o@o@: :|o@o@oo:      ::::::::::::: :    .</text>
+  <text x="28" y="601" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-59)">|=g@@@g;:: :     : : :             :       :g@@p__---ggg: : |@@@@@@@@@@o@@@@@(:: |o@o@:  |o@@o@o|       :::: :            `</text>
+  <text x="28" y="610.6" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-60)">ji@ooo\::: : : :    :                     ::@@@@@o@@o@o@:: :|o@@@@@@@o@@@@@\:: : |o@o@: : |o@@oo|       :                :</text>
+  <text x="28" y="620.1999999999999" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-61)">jj|@ox::: : : : : :                       :|@@@@o@o@o@@@:: :|@ooo@$U$UUUUe\:::: :!XXUU:  :|o@@@o|                      ::</text>
+  <text x="28" y="629.8" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-62)">jj[@|::: : : :   :                        :|QQ$UUUV---++: : :::::::::::::::: : : : : : :  ::::!!:           :         ::</text>
+  <text x="28" y="639.4" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-63)">cj:q|c::::: : :                          ::::::: : : : : : : : ::::: : : : :: : : : : : :   : : :                : :::`</text>
+  <text x="28" y="649" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-64)">xj:/s!j:::: :                             ::::        : : : : : ::::: : :::::: :::.__-----gggu: :     :.       :.:'</text>
+  <text x="28" y="658.6" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-65)">|c::!c!;:                                 :::uguuuuugugu--uguggggggggggggggoooooooooo@o@oooo@o: :    |  ' :::'''</text>
+  <text x="28" y="668.1999999999999" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-66)">|ij::!j[|:                 ' :           : ::oooooooo@o@o@o@o@o@@@@@o@o@@@@@@@@o@o@ooo@o@@@@@@: ::   '</text>
+  <text x="28" y="677.8" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-67)"> 'jj:::j!::                 |:           : ::o@o@o@o@o@Y/@o@@@@@@@@@@@@@@@o@o@o@o@o@oooooo@o@o:: :   ::</text>
+  <text x="28" y="687.4" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-68)">  ':::::::::: :        :    |            :  :oooooo@o\+c:/o@o@@@@@@o@o@o@@@o@o@o@ooo@o@o@o@o@@|: :    :</text>
+  <text x="28" y="697" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-69)">    '::::::: : : :  ::     |x               :ooo@oog_x_jc_ao@@@@@@@@@@@@o@o@o@o@o@o@ooooo@o@o@|: ::   |</text>
+  <text x="28" y="706.6" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8" clip-path="url(#type-row-70)">      `::::::::::..'`      xj: :         :  :o@oo@pcpcxxuxxxq@@@o@@o@o@o@o@@o@o@o@oo@o@o@o@@@@|: ::   :`</text>
+  <text x="669.6" y="193.8" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16" clip-path="url(#type-row-71)"><tspan fill="#3d444d">─</tspan><tspan fill="#58a6ff"> RAJ-A58@github </tspan><tspan fill="#3d444d">─────────────────────────────────────────</tspan></text>
+  <text x="669.6" y="213.8" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16" clip-path="url(#type-row-72)"><tspan fill="#ffa657">. Uptime: </tspan><tspan fill="#484f58">..............................</tspan><tspan fill="#c9d1d9"> 2 years, 11 days</tspan></text>
+  <text x="669.6" y="233.8" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16" clip-path="url(#type-row-73)"><tspan fill="#ffa657">. Languages: </tspan><tspan fill="#484f58">.........</tspan><tspan fill="#c9d1d9"> Python 65%, JavaScript 11%, C++ 7%</tspan></text>
+  <text x="669.6" y="273.8" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16" clip-path="url(#type-row-74)"><tspan fill="#3d444d">─</tspan><tspan fill="#58a6ff"> Contact </tspan><tspan fill="#3d444d">────────────────────────────────────────────────</tspan></text>
+  <text x="669.6" y="293.8" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16" clip-path="url(#type-row-75)"><tspan fill="#ffa657">. Email: </tspan><tspan fill="#484f58">.......................</tspan><tspan fill="#c9d1d9"> rajpatil280906@gmail.com</tspan></text>
+  <text x="669.6" y="313.8" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16" clip-path="url(#type-row-76)"><tspan fill="#ffa657">. GitHub: </tspan><tspan fill="#484f58">............................</tspan><tspan fill="#c9d1d9"> github.com/RAJ-A58</tspan></text>
+  <text x="669.6" y="353.8" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16" clip-path="url(#type-row-77)"><tspan fill="#3d444d">─</tspan><tspan fill="#58a6ff"> GitHub Stats </tspan><tspan fill="#3d444d">───────────────────────────────────────────</tspan></text>
+  <text x="669.6" y="373.8" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16" clip-path="url(#type-row-78)"><tspan fill="#ffa657">. Repos: </tspan><tspan fill="#484f58">..............</tspan><tspan fill="#79c0ff"> 17</tspan><tspan fill="#3d444d"> | </tspan><tspan fill="#ffa657">. Stars: </tspan><tspan fill="#484f58">...............</tspan><tspan fill="#79c0ff"> 0</tspan></text>
+  <text x="669.6" y="393.8" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16" clip-path="url(#type-row-79)"><tspan fill="#ffa657">. Forks: </tspan><tspan fill="#484f58">...............</tspan><tspan fill="#79c0ff"> 2</tspan><tspan fill="#3d444d"> | </tspan><tspan fill="#ffa657">. Followers: </tspan><tspan fill="#484f58">...........</tspan><tspan fill="#79c0ff"> 3</tspan></text>
+  <text x="669.6" y="413.8" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16" clip-path="url(#type-row-80)"><tspan fill="#ffa657">. Commits: </tspan><tspan fill="#484f58">...........</tspan><tspan fill="#79c0ff"> 239</tspan><tspan fill="#3d444d"> | </tspan><tspan fill="#ffa657">. Contributed: </tspan><tspan fill="#484f58">.........</tspan><tspan fill="#79c0ff"> 4</tspan></text>
+  <text x="669.6" y="433.8" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16" clip-path="url(#type-row-81)"><tspan fill="#ffa657">. PRs: </tspan><tspan fill="#484f58">.................</tspan><tspan fill="#79c0ff"> 6</tspan><tspan fill="#3d444d"> | </tspan><tspan fill="#ffa657">. Issues: </tspan><tspan fill="#484f58">..............</tspan><tspan fill="#79c0ff"> 0</tspan></text>
+  <text x="669.6" y="453.8" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16" clip-path="url(#type-row-82)"><tspan fill="#ffa657">. Top repo: </tspan><tspan fill="#484f58">................................</tspan><tspan fill="#c9d1d9"> AETHER (0 ★)</tspan></text>
+  <text x="669.6" y="493.8" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16" clip-path="url(#type-row-83)"><tspan fill="#3d444d">─</tspan><tspan fill="#58a6ff"> Last 12 Months </tspan><tspan fill="#3d444d">─────────────────────────────────────────</tspan></text>
+  <text x="669.6" y="513.8" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16" clip-path="url(#type-row-84)"><tspan fill="#ffa657">. Contributions: </tspan><tspan fill="#484f58">.....</tspan><tspan fill="#79c0ff"> 295</tspan><tspan fill="#3d444d"> | </tspan><tspan fill="#ffa657">. Reviews: </tspan><tspan fill="#484f58">.............</tspan><tspan fill="#79c0ff"> 0</tspan></text>
+  <text x="669.6" y="533.8" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16" clip-path="url(#type-row-85)"><tspan fill="#ffa657">. Private: </tspan><tspan fill="#484f58">...........................................</tspan><tspan fill="#79c0ff"> 35</tspan></text>
+  <text x="669.6" y="553.8" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16" clip-path="url(#type-row-86)"><tspan fill="#39d353">     ▄▄ ▄▄▄▃▂    ▃▅  ▂  ▅▃  ▃ ▂▂ ▆▆▇▅▅▃ ▅▆▆▆▂▇▇▅▅▇▆▇█▅</tspan></text>
 </svg>
