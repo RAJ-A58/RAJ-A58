@@ -39,10 +39,10 @@
     <clipPath id="bar-clip">
       <rect x="24" y="60" width="412" height="10" rx="5"/>
     </clipPath>
-    <rect x="24.0" y="60" width="224.3" height="10" fill="#3572A5"/><rect x="248.3" y="60" width="174.0" height="10" fill="#f34b7d"/><rect x="422.3" y="60" width="10.3" height="10" fill="#e38c00"/><rect x="432.6" y="60" width="3.4" height="10" fill="#ccc"/>
+    <rect x="24.0" y="60" width="181.1" height="10" fill="#DA5B0B"/><rect x="205.1" y="60" width="147.2" height="10" fill="#3572A5"/><rect x="352.3" y="60" width="21.6" height="10" fill="#f1e05a"/><rect x="373.9" y="60" width="17.7" height="10" fill="#3178c6"/><rect x="391.5" y="60" width="11.5" height="10" fill="#f34b7d"/>
   </g>
 
   <g id="legend">
-    <circle cx="28" cy="92" r="4" fill="#3572A5"/><text x="40" y="96" class="ascii-text">Python <tspan class="label">(54.4%)</tspan></text><circle cx="28" cy="112" r="4" fill="#f34b7d"/><text x="40" y="116" class="ascii-text">C++ <tspan class="label">(42.2%)</tspan></text><circle cx="28" cy="132" r="4" fill="#e38c00"/><text x="40" y="136" class="ascii-text">SQL <tspan class="label">(2.5%)</tspan></text><circle cx="230" cy="92" r="4" fill="#ccc"/><text x="242" y="96" class="ascii-text">CMake <tspan class="label">(0.8%)</tspan></text>
+    <circle cx="28" cy="92" r="4" fill="#DA5B0B"/><text x="40" y="96" class="ascii-text">Jupyter Notebook <tspan class="label">(43.9%)</tspan></text><circle cx="28" cy="112" r="4" fill="#3572A5"/><text x="40" y="116" class="ascii-text">Python <tspan class="label">(35.7%)</tspan></text><circle cx="28" cy="132" r="4" fill="#f1e05a"/><text x="40" y="136" class="ascii-text">JavaScript <tspan class="label">(5.2%)</tspan></text><circle cx="230" cy="92" r="4" fill="#3178c6"/><text x="242" y="96" class="ascii-text">TypeScript <tspan class="label">(4.3%)</tspan></text><circle cx="230" cy="112" r="4" fill="#f34b7d"/><text x="242" y="116" class="ascii-text">C++ <tspan class="label">(2.8%)</tspan></text>
   </g>
 </svg>
