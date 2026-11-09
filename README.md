@@ -11,11 +11,15 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=61AFEF&center=true&vCenter=true&width=620&lines=CS+Undergrad+%40+VNIT+Nagpur;Low-Latency+Systems+%26+Quant+Infrastructure;Distributed+Systems+%26+Concurrency;C%2B%2B20+%7C+Lock-Free+Data+Structures)](https://git.io/typing-svg)
 
 <p align="center">
-  <a href="https://linkedin.com/in/rajlalitpatil" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:rajlpwork18@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://codolio.com/profile/RAJ-A58" target="_blank"><img src="https://img.shields.io/badge/Codolio-Portfolio-FF5722?style=flat-square" alt="Codolio" /></a>
-  <a href="https://leetcode.com/u/RAJ-58" target="_blank"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black" alt="LeetCode" /></a>
-  <a href="https://codeforces.com/profile/Raj0106" target="_blank"><img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=flat-square&logo=codeforces&logoColor=white" alt="Codeforces" /></a>
+  <a href="https://linkedin.com/in/rajlalitpatil" target="_blank"><img src="social-linkedin.svg" width="40" height="40" alt="LinkedIn" /></a>
+  &nbsp;
+  <a href="mailto:rajlpwork18@gmail.com"><img src="social-email.svg" width="40" height="40" alt="Email" /></a>
+  &nbsp;
+  <a href="https://codolio.com/profile/RAJ-A58" target="_blank"><img src="social-codolio.svg" width="40" height="40" alt="Codolio" /></a>
+  &nbsp;
+  <a href="https://leetcode.com/u/RAJ-58" target="_blank"><img src="social-leetcode.svg" width="40" height="40" alt="LeetCode" /></a>
+  &nbsp;
+  <a href="https://codeforces.com/profile/Raj0106" target="_blank"><img src="social-codeforces.svg" width="40" height="40" alt="Codeforces" /></a>
 </p>
 
 </div>
