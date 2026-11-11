@@ -24,7 +24,7 @@
 
 </div>
 
-> CSE Undergrad at **VNIT Nagpur** building high-throughput low-latency systems, lock-free concurrent structures in modern C++20, and resilient distributed architectures. Zero third-party analytics — telemetry rendered natively by this repo.
+> CSE Undergrad at **VNIT Nagpur** building high-throughput low-latency systems, lock-free concurrent structures in modern C++20, and resilient distributed architectures. Open-source contributor to **[QuantLib](https://github.com/lballabio/QuantLib)**. Zero third-party analytics — telemetry rendered natively by this repo.
 
 <br/>
 
@@ -33,6 +33,7 @@
 - **CSE Undergrad** at **VNIT Nagpur**
 - **Core Interests:** Low-latency systems, lock-free concurrency, high-performance C++20, and distributed architectures.
 - **Quant & Systems Research:** Order matching, SPSC lock-free queues, memory models, cache-line alignment, and cross-currency arbitrage engines.
+- **Open Source:** Contributor to **[QuantLib](https://github.com/lballabio/QuantLib)** — the premier quantitative finance C++ library (yield curve exponential spline fitting & interest rate coupons).
 - Passionate about deep algorithmic problem solving and writing clean, cache-friendly, production-grade code.
 
 <br/>
@@ -53,6 +54,7 @@
 
 | Project | Focus Area | Description |
 | :--- | :--- | :--- |
+| **[QuantLib](https://github.com/lballabio/QuantLib)** | <samp>Open Source · Quant C++</samp> | Contributor to the premier quantitative finance C++ library: interest rate coupons ([#3036](https://github.com/lballabio/QuantLib/pull/3036)) & exponential spline fitting algorithms ([#3056](https://github.com/lballabio/QuantLib/pull/3056)). |
 | **[FX-Arbitrage-Detector](https://github.com/RAJ-A58/FX-Arbitrage-Detector)** | <samp>High-Performance Systems</samp> | C++17 engine using negative-log Bellman-Ford to detect FX currency arbitrage loops accounting for real-world bid/ask spreads & fees. |
 | **[cpp-concurrency-journey](https://github.com/RAJ-A58/cpp-concurrency-journey)** | <samp>Quant / Low-Latency</samp> | Low-latency C++20 concurrency exploration: lock-free SPSC ring buffers, cache-line alignment, atomic memory models for HFT applications. |
 | **[Blinkit-concurrency-poc](https://github.com/RAJ-A58/Blinkit-concurrency-poc)** | <samp>Distributed Systems</samp> | Distributed race-condition simulation & mitigation using Redis distributed locks, RabbitMQ queues, and MySQL optimistic concurrency. |
