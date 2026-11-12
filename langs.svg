@@ -39,10 +39,10 @@
     <clipPath id="bar-clip">
       <rect x="24" y="60" width="412" height="10" rx="5"/>
     </clipPath>
-    <rect x="24.0" y="60" width="180.7" height="10" fill="#DA5B0B"/><rect x="204.7" y="60" width="148.3" height="10" fill="#3572A5"/><rect x="353.0" y="60" width="20.9" height="10" fill="#f1e05a"/><rect x="373.9" y="60" width="17.6" height="10" fill="#3178c6"/><rect x="391.5" y="60" width="11.4" height="10" fill="#f34b7d"/>
+    <rect x="24.0" y="60" width="175.9" height="10" fill="#DA5B0B"/><rect x="199.9" y="60" width="144.9" height="10" fill="#3572A5"/><rect x="344.8" y="60" width="30.3" height="10" fill="#f1e05a"/><rect x="375.1" y="60" width="17.2" height="10" fill="#3178c6"/><rect x="392.2" y="60" width="11.1" height="10" fill="#f34b7d"/>
   </g>
 
   <g id="legend">
-    <circle cx="28" cy="92" r="4" fill="#DA5B0B"/><text x="40" y="96" class="ascii-text">Jupyter Notebook <tspan class="label">(43.9%)</tspan></text><circle cx="28" cy="112" r="4" fill="#3572A5"/><text x="40" y="116" class="ascii-text">Python <tspan class="label">(36.0%)</tspan></text><circle cx="28" cy="132" r="4" fill="#f1e05a"/><text x="40" y="136" class="ascii-text">JavaScript <tspan class="label">(5.1%)</tspan></text><circle cx="230" cy="92" r="4" fill="#3178c6"/><text x="242" y="96" class="ascii-text">TypeScript <tspan class="label">(4.3%)</tspan></text><circle cx="230" cy="112" r="4" fill="#f34b7d"/><text x="242" y="116" class="ascii-text">C++ <tspan class="label">(2.8%)</tspan></text>
+    <circle cx="28" cy="92" r="4" fill="#DA5B0B"/><text x="40" y="96" class="ascii-text">Jupyter Notebook <tspan class="label">(42.7%)</tspan></text><circle cx="28" cy="112" r="4" fill="#3572A5"/><text x="40" y="116" class="ascii-text">Python <tspan class="label">(35.2%)</tspan></text><circle cx="28" cy="132" r="4" fill="#f1e05a"/><text x="40" y="136" class="ascii-text">JavaScript <tspan class="label">(7.3%)</tspan></text><circle cx="230" cy="92" r="4" fill="#3178c6"/><text x="242" y="96" class="ascii-text">TypeScript <tspan class="label">(4.2%)</tspan></text><circle cx="230" cy="112" r="4" fill="#f34b7d"/><text x="242" y="116" class="ascii-text">C++ <tspan class="label">(2.7%)</tspan></text>
   </g>
 </svg>
