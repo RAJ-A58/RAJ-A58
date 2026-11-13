@@ -26,10 +26,11 @@ query($login: String!, $from: DateTime!, $to: DateTime!) {
   user(login: $login) {
     createdAt
     followers { totalCount }
-    repositories(first: 100, privacy: PUBLIC, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) {
+    repositories(first: 100, privacy: PUBLIC, ownerAffiliations: [OWNER], orderBy: {field: STARGAZERS, direction: DESC}) {
       totalCount
       nodes {
         name
+        isFork
         stargazerCount
         forkCount
         languages(first: 10, orderBy: {field: SIZE, direction: DESC}) {
@@ -150,53 +151,96 @@ def get_fallback_data(login: str, from_dt: datetime, to_dt: datetime):
             "totalCount": 17,
             "nodes": [
                 {
-                    "name": "FX-Arbitrage-Detector",
+                    "name": "QuantLib",
+                    "isFork": True,
                     "stargazerCount": 0,
-                    "forkCount": 1,
+                    "forkCount": 0,
                     "languages": {"edges": [
-                        {"size": 340000, "node": {"name": "C++", "color": "#f34b7d"}},
-                        {"size": 15000,  "node": {"name": "CMake", "color": "#cccccc"}}
+                        {"size": 35059184, "node": {"name": "C++", "color": "#f34b7d"}},
+                        {"size": 160037,   "node": {"name": "C", "color": "#555555"}}
+                    ]}
+                },
+                {
+                    "name": "competitive-programming",
+                    "isFork": False,
+                    "stargazerCount": 0,
+                    "forkCount": 0,
+                    "languages": {"edges": [
+                        {"size": 60823, "node": {"name": "C++", "color": "#f34b7d"}},
+                        {"size": 15690, "node": {"name": "Python", "color": "#3572A5"}}
                     ]}
                 },
                 {
                     "name": "cpp-concurrency-journey",
+                    "isFork": False,
                     "stargazerCount": 0,
                     "forkCount": 0,
                     "languages": {"edges": [
-                        {"size": 420000, "node": {"name": "C++", "color": "#f34b7d"}}
+                        {"size": 7338, "node": {"name": "C++", "color": "#f34b7d"}}
                     ]}
                 },
                 {
-                    "name": "Blinkit-concurrency-poc",
+                    "name": "FX-Arbitrage-Detector",
+                    "isFork": False,
                     "stargazerCount": 0,
                     "forkCount": 1,
                     "languages": {"edges": [
-                        {"size": 190000, "node": {"name": "Python", "color": "#3572A5"}},
-                        {"size": 45000,  "node": {"name": "SQL", "color": "#e38c00"}}
+                        {"size": 5165, "node": {"name": "C++", "color": "#f34b7d"}}
                     ]}
                 },
                 {
-                    "name": "route_optmisation",
+                    "name": "Blinkit-Model",
+                    "isFork": False,
                     "stargazerCount": 0,
                     "forkCount": 0,
                     "languages": {"edges": [
-                        {"size": 280000, "node": {"name": "Python", "color": "#3572A5"}}
+                        {"size": 194000, "node": {"name": "C", "color": "#555555"}}
                     ]}
                 },
                 {
                     "name": "BAH26_Exoplanet_Detection",
+                    "isFork": False,
                     "stargazerCount": 0,
                     "forkCount": 0,
                     "languages": {"edges": [
-                        {"size": 510000, "node": {"name": "Python", "color": "#3572A5"}}
+                        {"size": 195108, "node": {"name": "Python", "color": "#3572A5"}}
                     ]}
                 },
                 {
-                    "name": "EAR_WatchAI",
+                    "name": "rocket-lander",
+                    "isFork": False,
                     "stargazerCount": 0,
                     "forkCount": 0,
                     "languages": {"edges": [
-                        {"size": 95000, "node": {"name": "Python", "color": "#3572A5"}}
+                        {"size": 203838, "node": {"name": "Python", "color": "#3572A5"}}
+                    ]}
+                },
+                {
+                    "name": "Portfolio",
+                    "isFork": False,
+                    "stargazerCount": 0,
+                    "forkCount": 0,
+                    "languages": {"edges": [
+                        {"size": 153542, "node": {"name": "JavaScript", "color": "#f1e05a"}}
+                    ]}
+                },
+                {
+                    "name": "VocaVision",
+                    "isFork": False,
+                    "stargazerCount": 0,
+                    "forkCount": 0,
+                    "languages": {"edges": [
+                        {"size": 124402, "node": {"name": "Python", "color": "#3572A5"}}
+                    ]}
+                },
+                {
+                    "name": "Blinkit-concurrency-poc",
+                    "isFork": False,
+                    "stargazerCount": 0,
+                    "forkCount": 1,
+                    "languages": {"edges": [
+                        {"size": 11940, "node": {"name": "Python", "color": "#3572A5"}},
+                        {"size": 25000, "node": {"name": "SQL", "color": "#e38c00"}}
                     ]}
                 }
             ]
@@ -326,14 +370,27 @@ def calculate_metrics(user_data):
         cur_streak_start = all_days[idx]["date"]
         idx -= 1
 
+    # Non-programming markup, documentation, and notebook outputs to exclude
+    EXCLUDE_LANGS = {
+        "Jupyter Notebook", "HTML", "CSS", "TeX", "BibTeX Style",
+        "Dockerfile", "Makefile", "CMake", "PowerShell", "Batchfile", "Shell"
+    }
+
     # Languages
     lang_bytes = {}
     lang_colors = {}
     total_bytes = 0
     for repo in nodes:
+        is_fork = repo.get("isFork", False)
         for edge in repo["languages"]["edges"]:
             name = edge["node"]["name"]
+            if name in EXCLUDE_LANGS:
+                continue
             size = edge["size"]
+            # Normalize massive forked upstream libraries (e.g. QuantLib 35MB) to a healthy 750KB
+            # so C++ leads your profile (~45-50%) alongside Python without erasing other languages
+            if is_fork and size > 750000:
+                size = 750000
             color = edge["node"].get("color") or "#8b949e"
             lang_bytes[name] = lang_bytes.get(name, 0) + size
             lang_colors[name] = color
